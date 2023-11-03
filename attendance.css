@@ -1,0 +1,249 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: rgb(239, 238, 238);
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+#header{
+    height: 60px;
+    background-color: rgb(91, 222, 215);
+    padding-top: 30px;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.ub{
+    height: 40px;
+    width: auto;
+    border: 1px solid rgb(91, 222, 215);
+    border-radius: 50%;
+}
+
+.header-left{
+    display: flex;
+    margin-left: 50px;
+}
+
+.title{
+    padding-top: 6px;
+    font-size: 28px;
+    padding-left: 7px;
+    color: white;
+}
+
+.header-right{
+    display: flex;
+    margin-right: 36px;
+}
+
+.header-right-list a{
+    display: flex;
+    /* vertical-align: middle; */
+    text-decoration: none;
+    
+}
+
+a .active{
+    color: gold;
+    font-size: 25px;
+}
+
+.cathy{
+    color: white;
+    font-size: 22px;
+    padding-top: 5px;
+}
+
+.home{
+    height: 31px;
+}
+
+.grumpii1{
+    margin-right: 34px;
+}
+
+.welcome-img{
+    height: 550px;
+    width: 580px;
+    /* margin: 14px; */
+}
+
+marquee{
+    font-size: 30px;
+    font-weight: 600;
+    color: gold;  
+    padding-top: 25px;  
+}
+
+.welcome-content{
+    height: 400px;
+    width: 330px;
+    padding: 30px;
+    background: white;
+    margin-top: 50px;
+    margin-right: 12px;
+    box-shadow: 1px 5px 8px lightgray;
+    border: 1px solid rgb(239, 238, 238);
+}
+
+.SAMS{
+    color: blue;
+}
+
+#welcome{
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 15px; */
+    
+
+}
+
+.welcome-content-p{
+    margin-top: 20px;
+    line-height: 2;
+}
+
+.signin{
+    height: 50px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(235, 235, 155);
+    background: rgb(235, 235, 155);
+    /* opacity: 0.8; */
+    /* font-weight: 600; */
+    /* text-align: center; */
+    margin-left: 120px;
+    margin-top: 12px;
+}
+
+.signin:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+#about{
+    margin: 150px;
+    text-align: center;
+    height: 390px;
+    width: auto;
+    background: snow;
+    padding: 70px;
+    line-height: 2.5;
+    box-shadow: 6px 12px 20px lightgray;
+}
+
+.craze{
+    background: rgb(250, 230, 222);
+    font-size: 35px;
+    color: salmon;
+    padding: 5px;
+}
+
+.church{
+    margin-left: 20px;
+}
+
+#contact{
+    background: rgb(248, 219, 198);
+    /* margin: 10px; */
+    /* margin-bottom: 500px; */
+    height: 600px;
+    line-height: 2;
+
+}
+
+.us{
+    font-size: 35px;
+    color: lightseagreen;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.Contact-us{
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.joy{
+    height: 26px;
+    width: 200px;
+    padding: 5px 14px;
+    margin-bottom: 15px;
+    border: 1px solid chocolate ;
+    background: rgb(250, 245, 240);
+}
+
+input:focus{
+    border: 1px solid blue;
+    
+}
+
+.first{
+    font-size: 18px;
+
+}
+
+.eru{
+    margin-left: 20px;
+}
+
+.fufu{
+    margin-left: 55px;
+}
+
+.yam{
+    margin-left: 56px;
+}
+
+.ndole{
+    margin-left: 15px;
+}
+
+.corn{
+    margin-left: 22px;
+}
+
+.stew{
+    margin-left: 98px;
+}
+
+.beans{
+    margin-left: 38px;
+}
+
+.coco{
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+.meat{
+    margin-left: 124px;
+}
+
+.canda{
+    margin-left: 88px;
+}
+
+.fish{
+   margin-left: 140px; 
+}
+
+.mimi{
+    padding: 8px 18px;
+    margin-bottom: 15px;
+    border: 1px solid chocolate ;
+    background: rgb(250, 245, 240);
+    font-size: 15px;
+}
