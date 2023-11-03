@@ -118,9 +118,23 @@
             <div class="wow">
                 <label class="first">Matriculation Number: <input type="text" class="joy coco" placeholder="Matriculation Number" autocomplete="on"></label>
                 <br>
-                <label class="first">Faculty: <input type="text" class="joy meat" placeholder="Faculty"></label>
+                <label class="first">Faculty: <input name="Faculty" list="Faculty" type="text" class="joy meat" placeholder="Faculty">
+                    <datalist id="Faculty">
+                        <option value="College Of Technology">
+                        <option value="Faculty Of Engineering And Technology">
+                        <option value="Faculty Of Social And Management Sciences">
+                        <option value="Faculty Of Education">
+                        <option value="Faculty Of Science">
+                        <option value="Faculty Of Arts">
+                        <option value="Higher Technical Teachers Training College">
+                        <option value="Advanced School of Translators and Interpreters">
+                        <option value="Faculty of Veterinary Medicine and Agriculture">
+                        <option value="Faculty Of Science">
+                        <option value="Faculty of Health Sciences"></option>
+                      </datalist>
+                </label>
                 <br>
-                <label class="first">Department: <input type="text" class="joy canda" placeholder="Department"></label>
+                <label class="first">Department: <input type="text" class="joy canda" placeholder="Department" id="Department"></label>
                 <br>
                 <label class="first">Level: <input name="level" list="level" class="joy fish" placeholder="Level">
                     <datalist id="level">
@@ -139,6 +153,8 @@
                 Message"></textarea>
             </div>
         </div>
+
+        <button class="submit" type="submit">Submit</button>
 
     </section>
 
