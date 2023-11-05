@@ -272,3 +272,23 @@ input:focus{
     cursor: pointer;
     opacity: 0.8;
 }
+
+.odette,
+.iye{
+    height: 40px;
+    width: 230px;
+    padding: 5px 14px;
+    margin-bottom: 15px;
+    border: 1px solid chocolate ;
+    background: rgb(250, 245, 240);
+    /* margin-left: 88px; */
+}
+
+.odette{
+    margin-left: 88px;
+}
+
+.iye{
+    margin-left: 125px;
+
+}
