@@ -6,55 +6,66 @@
     <link rel="icon" type="image/jpg" href="img/ub.jpg" class="title-bar-img"/>
     <title>SAMS | Team Dynamic</title>
     <link rel="stylesheet" href="attendance.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
     <section id="header">
-        <div class="header-left">
+        <div class="header-left">           
+
             <img class="ub" src="img/ub.jpg">
             <h1 class="title">
                 SAMS
             </h1>
         </div>
+
         <div class="header-right">
             <div class="header-right-list grumpii1">
                 <a href="student.html">
-                    <img src="img/home.png" class="home">
+                    <img src="img/home.png" class="home main">
                     <h2 class="cathy active">
                         Home
                     </h2>
                 </a>
             </div>
 
-            <!-- <div class="header-right-list">
-                <a href="student.html">
-                    <img src="img/home.png" class="home">
-                <h2>
-                    ABOUT
-                </h2>
-                </a>
-            </div> -->
+           
 
             <div class="header-right-list grumpii1">
-                <a href="student.html">
-                    <img src="img/settings@2x.png" class="home">
-                    <h2 class="cathy">
-                        Setting
+                <a href="#about">
+                    <i class="fa-solid fa-person fa-1.5x"></i>                    <h2 class="cathy">
+                        About Us
                     </h2>
                 </a>
             </div>
 
             <div class="header-right-list grumpii1">
-                <a href="student.html">
-                    <img src="img/call@2x.png" class="home">
+                <a href="#contact">
+                    <img src="img/call@2x.png" class="home call">
                     <h2 class="cathy">
                         Contact
                     </h2>
                 </a>
             </div>
 
+            <div class="header-right-list grumpii1">
+                <a href="student.html">
+                    <i class="fa-solid fa-user fa-2x"></i>                    
+                    <h2 class="cathy">
+                        Get Started
+                    </h2>
+                </a>
+
+            </div>
+
             
         </div>
+
+        <input type="checkbox" id="check">
+         <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
     </section>
 
     <section id="welcome">
@@ -120,29 +131,19 @@
                 <br>
                 <label class="first">Faculty: 
                     <select id="Faculty" name="Faculty" class="iye">
-                        <option value="Choose Your Faculty/College/School">Choose Your Faculty/College/School</option>
-                        <option value="College Of Technology">College Of Technology</option>
-                        <option value="Faculty Of Engineering And Technology">Faculty Of Engineering And Technology</option>
-                        <option value="Faculty Of Social And Management Sciences">Faculty Of Social And Management Sciences</option>
-                        <option value="Faculty Of Education">Faculty Of Education</option>
-                        <option value="Faculty Of Arts">Faculty Of Arts</option>
-                        <option value="Higher Technical Teachers Training College">Higher Technical Teachers Training College</option>
-                        <option value="Advanced School of Translators and Interpreters">Advanced School of Translators and Interpreters</option>
-                        <option value="Faculty of Veterinary Medicine and Agriculture">Faculty of Veterinary Medicine and Agriculture</option>
-                        <option value="Faculty Of Science">Faculty Of Science</option>
-                        <option value="Faculty of Health Sciences">Faculty of Health Sciences</option>
+                        <option selected value="Choose Your Faculty/College/School">Choose Your Faculty/College/School</option>
                     </select>
                 </label>
                 <br>
                 <label class="first">Department: 
                     <select name="Department" id="Department" class="odette">
-                        <option value="">Choose Your Department</option>
+                        <option selected >Choose Your Department</option>
                     </select>
                 </label>
                 <br>
                 <label class="first">Level: <input name="level" list="level" class="joy fish" placeholder="Level">
                     <datalist id="level">
-                        <option value="200">
+                        <option value="200" selected>
                         <option value="300">
                         <option value="400">
                         <option value="450">
@@ -163,7 +164,39 @@
     </section>
 
     <section id="footer">
-        
+        <footer>
+            <div class="footer-links">
+                <p class="footer-content">
+                    <a href="student.html">
+                    Home
+                    </a>
+                </p>
+                <p class="footer-content">
+                    <a href="#about">
+                    About Us
+                    </a>
+                </p>
+                <p class="footer-content">
+                    <a href="#contact">
+                    Contact Us
+                    </a>
+                </p>
+                <p class="footer-content">
+                    <a href="">
+                    Sign In
+                    </a>
+                </p>
+                <p class="footer-content">
+                    <a href="">
+                    Sign Up
+                    </a>
+                </p>
+            </div>
+            <div class="footer-brand">
+                Copyright @2023 | SAMS 
+            </div>
+        </footer>
+
     </section>
     
 
