@@ -75,6 +75,77 @@ html{
     
 }
 
+.dropdown-menu.open{
+    height: 450px;
+
+}
+
+.dropdown-menu{
+    position: absolute;
+    right: 0px;
+    top: 100px;
+    background: lightsalmon;
+    width: 390px;
+    text-align: center;
+    line-height: 3.3;
+    padding-top: 50px;
+    display: none;
+    height: 0;
+    transition: height .2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+li{
+    list-style: none;
+    /* padding-left: 250px; */
+    letter-spacing: 5px;
+}
+
+li .dogo .main{
+    padding-top: 45px;
+    padding-right: 6px;
+}
+
+li .dogo .active{
+    font-size: 35px;
+}
+
+li .dogo .caleb,
+li .dogo .mimie{
+    font-size: 28px;
+}
+
+li .dogo .fa-person{
+    padding-top: 34px;
+    padding-right: 4px;
+
+}
+
+li .dogo .call{
+    padding-top: 30px;
+    padding-right: 6px;
+    height: 40px;
+    margin-left: -10px;
+}
+
+li .dogo .fa-user{
+    padding-top: 35px;
+}
+
+
+.dogo{
+    text-decoration: none;
+    display: flex;
+
+}
+
+
 a .active{
     color: gold;
     font-size: 25px;
@@ -90,10 +161,32 @@ a .active{
     height: 31px;
 }
 
+.werey{
+    height: 40px;
+    width: 145px;
+    background: orange;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 8px;
+    padding: 6px 12px;
+    margin-top: -10px;
+    font-size: 20px;
+}
+
+.werey:hover{
+    opacity: 0.9;
+    cursor: pointer;
+    scale: 1.02;
+}
+
 i{
     color: white;
     /* margin-top: 10px; */
     margin-right: 5px;
+}
+
+.fa-user{
+    padding-top: 7px;
 }
 
 .grumpii1{
@@ -283,12 +376,12 @@ input:focus{
     height: 46px;
     width: 100px;
     font-size: 19px;
-    background: rgb(170, 242, 97);
+    background: rgb(91, 222, 215);
     color: chocolate;
     border-radius: 4px;
     margin-left: 470px;
     margin-top: 20px;
-    border: 1px solid rgb(170, 242, 97);
+    border: 1px solid rgb(91, 222, 215);
     box-shadow: 1px 1px 1px lightgrey;
 }
 
@@ -325,7 +418,7 @@ select:focus{
 
 
  #footer{
-    margin: 50px 250px;
+    margin: 50px 200px;
     line-height: 2;
  }
 
@@ -350,9 +443,6 @@ select:focus{
     opacity: 0.8;
  }
 
-
-
- /* RESPONSIVENESS */
  
 /* RESPONSIVENESS */
 @media screen and (max-width: 600px) and (min-width: 10px) {
@@ -452,14 +542,14 @@ select:focus{
 
 }
 
-@media screen and (min-width:601px) and (max-width: 768px) {    
-    
-  
-}
 
-@media screen and (min-width: 769px) and (max-width: 992px) {
+@media screen and (min-width: 601px) and (max-width: 992px) {
     .title{
         color: white;
+    }
+
+    .header-left{
+        margin-left: 20px;
     }
 
     #header{
@@ -472,19 +562,301 @@ select:focus{
 
     .header-right{
         margin-left: 60px;
+        margin-right: 2px;
+
     }
 
     .active{
-        font-size: 20px;
+        font-size: 22px;
+        /* padding-top: 2px; */
+    }
+
+    .caleb{
+        padding-top: 7px;
     }
 
     .home{
-        height: 25px;
-        padding-top: 6px;
+        height: 34px;
     }
 
-    .fa-person{
-        height: 20px;
+    .main{
+        padding-top: 2px;
     }
 
+    .call{
+        padding-top: -12px;
+    }
+
+    .mimie{
+        padding-top: 8px;
+        font-weight: 600;
+    } 
+    
+    #welcome{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .welcome-img{
+        width: auto;
+    }
+
+    .welcome-content{
+        margin-top: 180px;
+        margin-left: 100px;
+        text-align: center;
+        background: snow;
+        line-height: 2;
+        box-shadow: 6px 12px 20px lightgray;
+        width: 500px;
+        height: 480px;
+        padding-left: 70px;
+        padding-right: 70px;
+
+    }
+
+    .signin{
+        margin-left: 10px;
+        width: 200px;
+    }
+
+    .welcome-content-p{
+        line-height: 3;
+    }
+
+    #about{
+        width: 500px;
+        margin-left: 100px;
+        height: 480px;
+    }
+
+    #contact{
+        height: 1300px;
+    }
+
+    .first{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .Contact-us{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .joy{
+        margin-left: 120px;
+    }
+
+    .fufu{
+        margin-bottom: 5px;
+
+    }
+
+    .ndole{
+        margin-left: 83px;
+    }
+
+    .corn{
+        margin-left: 89px;
+    }
+
+    .stew{
+        margin-left: 168px;
+    }
+
+    .beans{
+        margin-left: 108px;
+    }
+
+    .wow{
+        margin-top: 30px;
+    }
+
+    .coco{
+        margin-left: 114px;
+    }
+
+    .fish{
+        margin-left: 138px;
+    }
+
+    .mimi{
+        margin-left: 70px;
+    }
+
+    .submit{
+        margin-left: 360px;
+    }
+
+    #footer{
+        margin: 50px 100px;
+        line-height: 2;
+     }
+
+}
+/* 
+@media screen and (min-width:601px) and (max-width: 768px) {    
+    .title{
+        color: red;
+    }
+  
+} */
+
+
+@media screen and (min-width:601px) and (max-width: 843px) {    
+    .title{
+        color: white;
+    }
+
+    .header-left{
+        margin-left: 20px;
+    }
+
+    #header{
+        padding-left: -10px;
+    }
+
+    .cathy{
+        font-size: 18px;
+    }
+
+    .header-right{
+        margin-left: 60px;
+        margin-right: 2px;
+
+    }
+
+    .active{
+        font-size: 22px;
+    }
+
+    .caleb{
+        padding-top: 7px;
+    }
+
+    .home{
+        height: 34px;
+    }
+
+    .main{
+        padding-top: 2px;
+    }
+
+    .call{
+        padding-top: -12px;
+    }
+
+    .mimie{
+        padding-top: 8px;
+        font-weight: 600;
+    } 
+
+    #footer{
+        margin: 50px 100px;
+        line-height: 2;
+     }
+
+     
+}
+
+
+@media screen and (min-width: 925px)  and (max-width: 990px) {    
+    
+    .submit{
+        margin-left: 430px;
+    }
+}
+
+@media screen and (min-width: 770px)  and (max-width: 870px) {    
+    
+    .title{
+        color: white;
+    }
+
+    
+    .header-left{
+        margin-left: 15px;
+    }
+
+    #header{
+        padding-left: -10px;
+    }
+
+    .cathy{
+        font-size: 18px;
+    }
+
+    .header-right{
+        margin-left: 25px;
+        margin-right: -18px;
+
+    }
+
+    .werey{
+        width: 120px;
+    }
+
+    .active{
+        font-size: 22px;
+    }
+
+    .caleb{
+        padding-top: 7px;
+    }
+
+    .home{
+        height: 34px;
+    }
+
+    .main{
+        padding-top: 2px;
+    }
+
+    .call{
+        padding-top: -12px;
+    }
+
+    .mimie{
+        padding-top: 8px;
+        font-weight: 600;
+    } 
+
+}
+
+
+@media screen and (min-width: 601px)  and (max-width: 769px) {    
+    
+    .title{
+        color: red;
+        font-size: 46px;
+        margin-top: -9px;
+    }
+
+    .header-left{
+        margin-left: 70px;
+        letter-spacing: 10px;
+    }
+
+    .header-right{
+        display: none;
+    }
+
+    .checkbtn{
+        display: block;
+        margin-right: 80px;
+    }
+
+    .dropdown-menu{
+        display: block;
+    }
+
+    .welcome-content{
+        margin-left: 50px;
+    }
+
+    #about{
+        margin-left: 60px;
+    }
 }

@@ -154,3 +154,28 @@ function addToDepartment(arr) {
 }
 
 
+
+
+
+//RESPONSIVENESS
+
+const checkBtn = document.querySelector('.checkbtn');
+const checkBtnIcon = document.querySelector('.checkbtn i');
+const dropDownMenu = document.querySelector('.dropdown-menu');
+
+checkBtn.onclick = function () {
+    dropDownMenu.classList.toggle('.dropdown-menu')
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
