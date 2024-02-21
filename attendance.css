@@ -31,7 +31,7 @@ html{
 
 #header{
     height: 60px;
-    background-color: rgb(91, 222, 215);
+    background-color: purple;
     padding-top: 30px;
     padding-bottom: 13px;
     display: flex;
@@ -46,7 +46,7 @@ html{
 .ub{
     height: 40px;
     width: auto;
-    border: 1px solid rgb(91, 222, 215);
+    border: 1px solid purple;
     border-radius: 50%;
     vertical-align: middle;
 }
@@ -288,7 +288,7 @@ marquee{
 
 .us{
     font-size: 35px;
-    color: lightseagreen;
+    color: purple;
     padding-top: 80px;
     text-align: center;
 }
@@ -306,7 +306,7 @@ marquee{
     padding: 5px 14px;
     margin-bottom: 15px;
     border: 1px solid chocolate ;
-    background: rgb(250, 245, 240);
+    background: white;
 }
 
 input:focus{
@@ -368,7 +368,7 @@ input:focus{
     padding: 8px 18px;
     margin-bottom: 15px;
     border: 1px solid chocolate ;
-    background: rgb(250, 245, 240);
+    background: white;
     font-size: 15px;
 }
 
@@ -376,12 +376,12 @@ input:focus{
     height: 46px;
     width: 100px;
     font-size: 19px;
-    background: rgb(91, 222, 215);
-    color: chocolate;
+    background: purple;
+    color: white;
     border-radius: 4px;
     margin-left: 470px;
     margin-top: 20px;
-    border: 1px solid rgb(91, 222, 215);
+    border: 1px solid purple;
     box-shadow: 1px 1px 1px lightgrey;
 }
 
@@ -397,7 +397,7 @@ input:focus{
     padding: 5px 14px;
     margin-bottom: 15px;
     border: 1px solid chocolate ;
-    background: rgb(250, 245, 240);
+    background: white;
     /* margin-left: 88px; */
 }
 
